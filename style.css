@@ -3,3 +3,61 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-image: url(https://thesamaritancounselingcenter.org/wp-content/uploads/2018/05/simo-3d-blogspot-com-come-creare-una-texture-di-legno-con-photoshop-con-texture-parquet-rovere-chiaro-e-texture-semaless-legno-wood-sino-3d-41-con-texture-parquet-rovere-chiaro-e-1477x1477px.jpg);
+}
+
+.container {
+    width: 70%;
+    height: 1500px;
+    margin: 20px auto;
+}
+
+.cover_header {
+    height: 400px;
+    background-color: white;
+}
+
+.menu {
+    height: 40px;
+    background-color: #a3a19b;
+}
+
+main {
+    margin: 10px 0;
+}
+
+.sidebar {
+    width: 20%;
+    float: left;
+}
+
+.left {
+    height: 500px;
+    background-color: #faf9f7;
+}
+
+.content {
+    width: 57%;
+    float: left;
+    background-color: #faf9f7;
+    height: 700px;
+}
+
+.widget {
+    height: 400px;
+    background-color: #faf9f7;
+    margin-bottom: 10px;
+}
+
+main:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: grey;
+    height: 100px;
+}
