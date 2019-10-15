@@ -21,15 +21,14 @@ body {
 
 .cover_header {
     height: 400px;
-    background-color: white;
     position: relative;
+    border: 4px solid white;
 }
 
 .cover_header img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    padding: 10px;
 }
 
 .overlay {
